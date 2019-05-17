@@ -26,6 +26,22 @@ img{
     max-width: 100%;
     max-height: 100%;
 }
+.logo{
+    float: left;
+    max-width: 250px;
+    max-height: 250px;
+}
+nav{
+    text-align: center;
+    width:auto;
+    float:auto;
+}
+nav ul{display:block; float:right;}
+nav ul li{float:left;}
+nav ul li:last-child{padding-right:0px;}
+nav ul li a{color:#002e5b; font-size:18px; padding: 25px 20px; display:inline-block; transition: all 0.5s ease 0s;}
+nav ul li a:hover{background-color:#002e5b; color:#fde428; transition: all 0.5s ease 0s;}
+
 
 .site-title {
     margin: 0 0 1em;

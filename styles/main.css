@@ -1,6 +1,6 @@
 body {font-family: sans-serif;
       }
-p {color: #4D3AA8;;}
+.cardInfo {color: #4D3AA8;;}
 
 h2 {
   font-size: 2em;
@@ -86,7 +86,7 @@ nav ul li a{
     font-weight: 800;
     text-align: left;
     color: white;
-    background-color: #88BDBC;
+    background-color: #4046A1;
 }
 
 
@@ -123,9 +123,10 @@ body {
     padding: 5em 6em;
 }
 .top{
-    background-color: purple;
+    background-color: #EFE2BA;
 }
 .bottom{
+    background-color: #C5C3EB;
     padding: 5em 6em;
 }
 

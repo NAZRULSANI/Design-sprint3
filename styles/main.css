@@ -42,15 +42,17 @@ nav ul li:last-child{padding-right:0px;}
 nav ul li a{color:#002e5b; font-size:18px; padding: 25px 20px; display:inline-block; transition: all 0.5s ease 0s;}
 nav ul li a:hover{background-color:#002e5b; color:#fde428; transition: all 0.5s ease 0s;}
 
+.site-objective{
 
-.site-title {
-    margin: 0 0 1em;
-    padding: 1em 0;
+    padding: 1em 1em;
     font-size: 2em;
-    font-weight: 300;
+    font-weight: 800;
     text-align: left;
-    color: black;
+    color: white;
+    background-color: #88BDBC;
 }
+
+
 
 @media screen and (min-width: 44.44em) {
     .site-title {
@@ -75,10 +77,21 @@ nav ul li a:hover{background-color:#002e5b; color:#fde428; transition: all 0.5s 
 
 
 body {
-  background: #88BDBC;
+  background: #ffffff;
   line-height: 1.4;
 
 }
+.cards{
+    margin: 0 auto;
+    padding: 5em 6em;
+}
+.top{
+    background-color: purple;
+}
+.bottom{
+    padding: 5em 6em;
+}
+
 
 .site-title {
 	color: white;

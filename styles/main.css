@@ -1,6 +1,11 @@
-body {font-family: "Open Sans",Helvetica,Arial,sans-serif;
+body {
+            font-family: "Open Sans",Helvetica,Arial,sans-serif;
       }
-.cardInfo {color: #4D3AA8;;}
+.cardInfo {
+
+            font-weight: 550;
+            color: #081856;
+}
 
 h2 {
   font-size: 2em;
@@ -71,14 +76,13 @@ nav ul li a{
       transition: .2s background-color;
             }
             nav ul li a:hover {
-              background-color: #B6CDD2;
+              background-color: #d3dcff;
 
             }
-/*nav ul:hover::after {
-    background: grey;
-    width: 100%;
-    transition: width .3s;
-          }*/
+nav ul li a:hover{
+    box-shadow: 3px 3px 8px hsl(0, 0%, 70%)
+}
+
 
 .button {
       background-color: grey;
@@ -211,7 +215,7 @@ body {
   }
 }
 
-    /*.footer {
+    .footer {
     margin: 0;
     padding: 0;
     background: #fff;
@@ -238,8 +242,8 @@ display: inline-block;
 vertical-align: top;
 }
 .footer .footer-left {
-width: 33%;
-padding-right: 15px;
+width: 300px;
+padding-right: 800px;
 }
 .footer .about {
 line-height: 20px;
@@ -256,29 +260,11 @@ font-weight: bold;
 margin-bottom: 20px;
 margin-top: 20px;
 }
-/*
-.footer .icons {
-margin-top: 25px;
-}
 
-.footer .icons a {
-display: inline-block;
-width: 35px;
-height: 35px;
-cursor: pointer;
-font-size: 25px;
-text-align: center;
-color: rgba(155, 18, 215,0.5);
-margin-right: 6px;
-margin-bottom: 5px;
-}
-.footer .icons a:hover{
-color: rgba(0,0,0,0.6);
--webkit-transition:all ease 0.5s;
-}
-  .footer .footer-center {
-width: 30%;
-}
+
+
+
+
 
 .footer .footer-center i {
 color: rgba(0,0,0,0.6);
@@ -326,31 +312,17 @@ color: rgba(0,0,0,0.6);
 margin-left: -12px;
 font-size: 20px;
 }
-h2 {
-color: #ffffff;
-font-size: 36px;
+h3 {
+color: #0099ff;
+font-size: 25px;
 font-weight: normal;
 margin: 0;
-color: #0099ff;
+
+}
+.ground{
+    text-align: center;
 }
 
-.footer .menu {
-color: rgba(0,0,0,0.6);
-margin: 20px 0 12px;
-padding: 0;
-}
-
-.footer .menu a {
-display: block;
-line-height: 1.8em;
-text-decoration: none;
-color: inherit;
-}
-
-.footer .menu a:hover {
-color: #0099ff;
--webkit-transition:all ease 0.5s;
-}
 
 .footer .name {
 color: #0099ff;
@@ -376,4 +348,4 @@ position: right;
 .footer .footer-center i {
   margin-left: 0;
 }
-}*/
+}

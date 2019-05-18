@@ -1,3 +1,7 @@
+@viewport { width: auto; }
+    @media (max-width: 384px) {
+        @viewport { width: 384px; }
+    }
 body {
             font-family: "Open Sans",Helvetica,Arial,sans-serif;
       }
@@ -19,9 +23,9 @@ h2 {
     color: #ffffff;
 }
 
-@media screen and (min-width: 52em) {
-    .centered {
-        max-width: 52em;
+@media screen and (max-width: 768px) {
+    .logo, nav {
+        width:100px; height:100px; margin:0; padding: 0;
     }
 }
 
@@ -114,7 +118,8 @@ nav ul li a:hover{
 
 .site-objective{
     position: relative;
-    padding: 2em 3em;
+    height: 400px;
+    padding: 4em 3em;
     font-size: 2em;
     font-weight: 800;
     text-align: left;

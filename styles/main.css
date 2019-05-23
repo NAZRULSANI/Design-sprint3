@@ -222,7 +222,7 @@ nav ul li a:hover{
     font-size: .75em;
     font-weight: 500;
 }
-/@media screen and (min-width: 44.44em) {
+@media screen and (min-width: 44.44em) {
     .site-objective {
         height: 100px;
         padding: 10px 10px;
@@ -274,9 +274,24 @@ body {
 }
 .cards {
   margin-top: 0em;
-  display: flex;
+  display: grid;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+
+@media screen and (min-width: 44.44em) {
+    .cards {
+        display: grid;
+
+    }
+}
+
+@media screen and (min-width: 50em) {
+    .cards {
+        display: flex;
+
+
+    }
 }
 
 

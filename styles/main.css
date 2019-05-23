@@ -33,8 +33,6 @@ h2 {
 .masthead {
 
     display:inline-block;
-    /*background-color:#24305e;*/
-    /*background-image: linear-gradient(260deg, #2376ae 0%, #c16ecf 100%);*/
     background-image: linear-gradient(260deg, #614385  0%,  #516395 100%);
     margin: 0;
     box-shadow: 3px 3px 8px;
@@ -104,61 +102,6 @@ h2 {
     text-align: left;
   }
 }
-/*nav{
-    text-align: center;
-    width:auto;
-    float:auto;
-    margin:0;
-    overflow: hidden;
-
-}
-
-nav ul{
-  list-style-type: none;
-  margin: 13px;
-  padding: 18px;
-}
-
-nav ul{
-    float:left;
-    display:block;
-
-
-}
-nav ul li{
-    float: right;
-
-}
-nav ul li:last-child{padding-right:0px;}
-
-nav ul li a{
-      position: relative;
-      top: 50px;
-      left: 40px;
-      display: block;
-      color: #2F3A64;
-      padding: 8px 16px;
-      text-decoration: none;
-      font-family: 'Oswald', sans-serif;
-      font-size:20px;
-      font-weight: 2em;
-      transition: .2s background-color;
-            }
-            nav ul li a:hover {
-              background-color: #d3dcff;
-
-            }
-nav ul li a:hover{
-    box-shadow: 3px 3px 8px hsl(0, 0%, 70%)
-}
-@media screen and (min-width: 340px) {
-  nav li a{
-    width: 120px;
-    border-bottom: none;
-    height: 50px;
-    line-height: 50px;
-    font-size: 1em;
-  }*/
 
 
 
@@ -192,28 +135,8 @@ nav ul li a:hover{
     position: relative;
     text-align: left;
     color: white;
-    /*background-color: #24305e;*/
-
     font-weight: 800;
 }
-/*@@media screen and (min-width: 340px) {
-    .site-objective{
-        background-color: black;
-
-
-}
-
-@media screen and (min-width: 340px) {
-  .main-heading{
-    width: 120px;
-    border-bottom: none;
-    height: 50px;
-    line-height: 50px;
-    font-size: 1em;
-    padding: 0, 0;
-  }
-*/
-
 
 
 .under-heading{
@@ -222,7 +145,7 @@ nav ul li a:hover{
     font-size: .75em;
     font-weight: 500;
 }
-/*@media screen and (min-width: 44.44em) {
+@media screen and (min-width: 44.44em) {
     .site-objective {
         height: 100px;
         padding: 10px 10px;
@@ -239,7 +162,7 @@ nav ul li a:hover{
 
 
     }
-}*/
+}
 
 
 body {
@@ -330,34 +253,7 @@ body {
 }
 
 
-/*@media screen and (min-width: 40em) {
-  .cards {
-    margin-top: 0em;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
 
-  .card {
-    margin-bottom: 0em;
-    display: block;
-    flex: 0 1 calc(10% - 0.2em);
-    /
-  }
-}
-
-@media screen and (min-width: 60em) {
-  .cards {
-    margin-top: inherit;
-  }
-
-  .card {
-    margin-bottom: 0em;
-    display: flex;
-    flex: 0 1 calc(33% - 0.5em);
-
-  }
-}*/
 
     .footer {
     margin: 0;

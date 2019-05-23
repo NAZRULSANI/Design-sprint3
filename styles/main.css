@@ -54,7 +54,7 @@ h2 {
 
 .topnav {
     position: relative;
-    padding:0em 15em;
+    padding: 0em 0em 0em 15em;
     overflow: hidden;
     background:rgba(0,0,0,0.1);
 
@@ -222,7 +222,7 @@ nav ul li a:hover{
     font-size: .75em;
     font-weight: 500;
 }
-@media screen and (min-width: 44.44em) {
+/*@media screen and (min-width: 44.44em) {
     .site-objective {
         height: 100px;
         padding: 10px 10px;
@@ -239,7 +239,7 @@ nav ul li a:hover{
 
 
     }
-}
+}*/
 
 
 body {
@@ -259,9 +259,8 @@ body {
 
 }
 .bottom{
-    background-color:; #2D283E;
+
     background-image: linear-gradient(260deg, #feb47b  0%,  #ff7e5f 100%);
-    /*padding: 5em 6em;*/
     padding:5em 0;
     box-shadow: 3px 3px 8px;
 

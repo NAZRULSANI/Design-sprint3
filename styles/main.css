@@ -1,5 +1,6 @@
 
 body {
+    margin: 0;
             font-family: "Open Sans",Helvetica,Arial,sans-serif;
       }
 .cardInfo {
@@ -53,7 +54,7 @@ h2 {
 
 .topnav {
     position: relative;
-    padding: 0em 0em 0em 20em;
+    padding: 0em 0em 0em 15em;
     overflow: hidden;
     background:rgba(0,0,0,0.1);
 
@@ -251,8 +252,8 @@ body {
 .cards{
     position: relative;
     margin: 0 auto;
-    padding: 5em 6em;
-    transition: all .1s ease-in;
+    padding: 1em 1em;
+
 }
 .top{
     background-color: #dcdcdc;#E3E2DF;

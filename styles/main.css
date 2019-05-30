@@ -14,20 +14,9 @@ h2 {
   color: #e74c3c;
 }
 
-.search-box{
-position: absolute;
-top: 50%;
-right: 50%;
-transform: translate(-50%,-50%);
-height: 40px;
-border-radius: 40px;
-padding: 10px;
-
-}
-
 .more{
     margin: 0 ;
-    padding: 0;
+    padding: 40px;
     text-align: center;
     font-size: 2em;
     color: #ffffff;

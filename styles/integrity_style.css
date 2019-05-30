@@ -1,3 +1,4 @@
+
 body {
 
             font-family: "Open Sans",Helvetica,Arial,sans-serif;
@@ -252,7 +253,7 @@ strong {
 .top h1{
     text-align: center;
     color: #ffffff;
-
+    background:rgba(0,0,0,0.1);
 }
 .bottom{
 

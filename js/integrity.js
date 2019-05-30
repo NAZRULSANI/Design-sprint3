@@ -1,19 +1,19 @@
 (function($) {
     "use strict";
 
-    var $navbar = $("#navbar"),
-        y_pos = $navbar.offset().top,
-        height = $navbar.height();
+    var $myTopnav = $("#myTopnav"),
+        y_pos = $myTopnav.offset().top,
+        height = $myTopnav.height();
 
     $(document).scroll(function() {
         var scrollTop = $(this).scrollTop();
 
         if (scrollTop > y_pos + height) {
-            $navbar.addClass("navbar-fixed").animate({
+            $myTopnav.addClass("myTopnav-fixed").animate({
                 top: 0
             });
         } else if (scrollTop <= y_pos) {
-            $navbar.removeClass("navbar-fixed").clearQueue().animate({
+            $myTopnav.removeClass("myTopnav-fixed").clearQueue().animate({
                 top: "-48px"
             }, 0);
         }

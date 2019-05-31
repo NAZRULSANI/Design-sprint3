@@ -14,20 +14,20 @@ h2 {
   color: #e74c3c;
 }
 
-.more{
+.bore{
     margin: 0 ;
     padding: 40px;
     text-align: center;
     font-size: 2em;
-    color: #ffffff;
+    color: #254b89;
 }
 .rore{
     background-color: #dcdcdc;
     padding: 1em;
 }
-.bore{
+.more{
     text-align: center;
-    color: #254b89;
+    color: #ffffff;
 }
 
 

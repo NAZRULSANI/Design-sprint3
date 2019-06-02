@@ -104,6 +104,14 @@ h2 {
   }
 }
 
+.main-heading{
+    float: right;
+    padding: 0 0 0 0;
+    color: white;
+}
+.main-hading h1{
+    color: #ffffff;
+}
 
 
  .para{
